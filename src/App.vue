@@ -6,7 +6,7 @@
   <!-- <Home2/> -->
   <!-- <users/> -->
 <!-- <Home3/> -->
-<Home4/>
+<Home5/>
 
 </template>
 
@@ -17,7 +17,7 @@
 //import Home2 from './components/Home2.vue';
 //import Users from './components/Users.vue';
 //import Home3 from './components/Home3.vue';
-import Home4 from './components/Home4.vue';
+import Home5 from './components/Home5.vue';
 
 export default {
   name: "App",
@@ -27,7 +27,7 @@ export default {
     //Home2,
     //Users,
     //Home3,
-    Home4
+    Home5
   },
 };
 </script>
