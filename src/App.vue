@@ -11,7 +11,7 @@
     <!-- <Home6 v-bind:users="users"/> -->
     <!-- <h2>{{title}}</h2>
     <Home7 v-on:changeTitle="changeTitle($event)"/> -->
-    <Home10/>
+    <Home11/>
   </div>
 </template>
 
@@ -21,12 +21,12 @@
 //import Home2 from './components/Home2.vue';
 //import Users from './components/Users.vue';
 //import Home3 from './components/Home3.vue';
-import Home10 from "./components/Home10.vue";
+import Home11 from "./components/Home11.vue";
 
 export default {
   name: "App",
   components: {
-    Home10,
+    Home11,
     // HelloWorld,
     //Home,
     //Home2,
