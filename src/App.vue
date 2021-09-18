@@ -3,9 +3,9 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   
   <!-- <Home data="You are there" msg="hi from You" /> -->
-  <Home2/>
+  <!-- <Home2/> -->
   <!-- <users/> -->
-
+<Home3/>
 
 </template>
 
@@ -13,16 +13,18 @@
 
 // import HelloWorld from './components/HelloWorld.vue'
 //import Home from "./components/Home.vue";
-import Home2 from './components/Home2.vue';
+//import Home2 from './components/Home2.vue';
 //import Users from './components/Users.vue';
+import Home3 from './components/Home3.vue';
 
 export default {
   name: "App",
   components: {
     // HelloWorld,
     //Home,
-    Home2,
+    //Home2,
     //Users,
+    Home3,
   },
 };
 </script>
