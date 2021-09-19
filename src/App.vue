@@ -11,7 +11,7 @@
     <!-- <Home6 v-bind:users="users"/> -->
     <!-- <h2>{{title}}</h2>
     <Home7 v-on:changeTitle="changeTitle($event)"/> -->
-    <Home15/>
+    <Home16/>
   </div>
 </template>
 
@@ -21,12 +21,12 @@
 //import Home2 from './components/Home2.vue';
 //import Users from './components/Users.vue';
 //import Home3 from './components/Home3.vue';
-import Home15 from "./components/Home15.vue";
+import Home16 from "./components/Home16.vue";
 
 export default {
   name: "App",
   components: {
-    Home15,
+    Home16,
     // HelloWorld,
     //Home,
     //Home2,
@@ -61,7 +61,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "~@/assets/scss/vendors/bootstrap-vue/index";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
